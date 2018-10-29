@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R-Ladies Chicago</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Katherine Simeon" />
+    <link href="NU-RLadies_files/remark-css/default.css" rel="stylesheet" />
+    <link href="NU-RLadies_files/remark-css/rladies.css" rel="stylesheet" />
+    <link href="NU-RLadies_files/remark-css/rladies-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# R-Ladies Chicago
+## STAT 301-1 🎃
+### Katherine Simeon
+### 2018/10/31
+
+---
+
+
+
+
+
+# What is R-Ladies?
+
+&lt;img src="https://rladies.org/wp-content/uploads/2016/12/R-LadiesGlobal.png" width="300" align="left" style="margin: 5px 10px" alt=""&gt;  
+  
+&lt;span style="color:#FFFFFF"&gt;Making white space  White space cool &lt;/span&gt;  
+   
+    
+    
+Worldwide organization that &lt;span style="color:#562457"&gt;promotes **gender diversity**&lt;/span&gt; in the &lt;span style="color:#562457"&gt;**R**&lt;/span&gt; community via &lt;span style="color:#562457"&gt;meetups and mentorship&lt;/span&gt; in a &lt;span style="color:#562457"&gt;**friendly** and **safe**&lt;/span&gt; environment.  
+
+---
+  
+# We have 130 chapters worldwide 
+  
+![R-Ladies Chapters](img/rladies-shiny.png)
+  
+*See our [rshinylady app](https://gqueiroz.shinyapps.io/rshinylady/)*!
+  
+---
+  
+# We have a chapter in Chicago!  
+    
+
+```r
+library(dplyr)
+
+rladies_global %&gt;%
+  filter(city == 'Chicago')
+```
+  
+&lt;img src="https://rladieschicago.org/img/rladieschi_group_2.png" align="center" style="margin: 5px 10px" alt=""&gt;   
+  
+---
+
+# What we do  
+  
+## Monthly Meetups  
+  
+* Talks   
+* Tutorials  
+* Collaborative Coding/Hackathon-style activities  
+  
+--
+  
+## Career Development  
+  
+* Networking &amp; Social Events  
+* Online **Slack** community with job listings  
+* Scholarship opportunities for local conferences  
+* [Abstract &amp; Scholarship reviews](http://tinyurl.com/rladiesabstracts)   
+  
+
+---
+  
+# Study Groups   
+  
+Small groups that discuss specialized topics in R. These meetings are &lt;span style="color:#562457"&gt;**hands-on**, **collaborative**&lt;/span&gt; discussions where participants walk through different R techniques together.       
+  
+  
+## Current Study Group Topics:    
+    
+* Astrostatistics   
+* Data Visualization  
+* Natural Language Processing    
+* GIS &amp; Spatial Data in R    
+  
+---
+  
+# Are men welcome to attend R-Ladies events?  
+  
+**Yes, men are welcome at our events.**  
+  
+* Our mission is to &lt;span style="color:#562457"&gt;encourage more women and non-binary individuals to get involved in the R community.&lt;/span&gt;   
+* Please help us by spreading the word about R-Ladies, and by being respectful of the fact that &lt;span style="color:#562457"&gt;our events are primarily for women/non-binary/female-identifying individuals.&lt;/span&gt;    
+  
+  
+We also expect all attendees to abide by our [community code of conduct](https://rladies.org/code-of-conduct/).      
+  
+  
+---
+    
+# Attend our November Meetup!  
+  
+## Tutorial on R + Git/Github  
+  
+When: **Tuesday, Nov. 13, 6-8pm**    
+Where: **Regents Hall, Loyola Watertower Campus, 111 E. Pearson St.**   
+  
+
+**RSVP on our [Meetup Page](https://www.meetup.com/rladies-chicago/)**
+   
+   
+---
+
+class: center, inverse 
+
+# Connect with us!  
+  
+## Email me with questions  
+  
+&lt;a href="mailto:katherine@rladies.org"&gt;&lt;i class="fa fa-paper-plane fa-fw"&gt;&lt;/i&gt;&amp;nbsp; Katherine@rladies.org&lt;/a&gt;&lt;br&gt;  
+  
+--
+  
+## Contact R-Ladies Chicago  
+  
+&lt;a href="mailto:chicago@rladies.org"&gt;&lt;i class="fa fa-paper-plane fa-fw"&gt;&lt;/i&gt;&amp;nbsp; chicago@rladies.org&lt;/a&gt;&lt;br&gt; 
+&lt;a href="https://rladieschicago.org/"&gt;&lt;i class="fa fa-link fa-fw"&gt;&lt;/i&gt;&amp;nbsp; rladieschicago.org&lt;/a&gt;&lt;br&gt;
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
